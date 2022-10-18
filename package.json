@@ -1,0 +1,11 @@
+{
+  "name": "real_time_chat_room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arijeet Aman",
+  "license": "MIT"
+}
