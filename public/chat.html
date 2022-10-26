@@ -9,13 +9,14 @@
       integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
       crossorigin="anonymous"
     />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;">
     <link rel="stylesheet" href="css/style.css" />
-    <title>ChatCord App</title>
+    <title>Arijeet's Chat App</title>
   </head>
   <body>
     <div class="chat-container">
       <header class="chat-header">
-        <h1><i class="fas fa-smile"></i> ChatCord</h1>
+        <h1><i class="fas fa-smile"></i> ChatGram</h1>
         <a id="leave-btn" class="btn">Leave Room</a>
       </header>
       <main class="chat-main">
@@ -46,6 +47,7 @@
       integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/main.js"></script>
   </body>
